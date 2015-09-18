@@ -21,7 +21,6 @@ time, mark, audio, video {
 body {
 	background-color: white;
 	font-family: 'Lato', sans-serif;
-	}
 }
 #logo {
 	height: 15vh;
@@ -176,7 +175,8 @@ body {
 		margin-bottom: 2vh;
 	}
 	#bb-image {
-		width: 100vw;
+		width: 200vw;
+		margin-left: -50vw;
 	}
 	#su-button {
 		width: 65vw;
@@ -253,7 +253,7 @@ body {
 		width: 10vh;
 	}
 	.social {
-		margin-left: 13vw;
+		margin-left: 15vw;
 		display: inline-block;
 		margin-top: 3vh;
 	}
