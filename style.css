@@ -181,6 +181,48 @@ body {
 	#follow-copy {
 		font-size: 3vh;
 	}
+	.works {
+		margin-top: 5vh;
+		border-top: 1px solid #cccccc;
+		font-weight: lighter;
+		margin-left: 0;
+	}
+	#cconvo {
+		color: #5D5D5D;
+		font-size: 5vh;
+		text-align: center;
+		margin-top: 5vh;
+		display: inherit;
+		margin-left: 2vw;
+	}
+	#topview {
+		width: 95vw;
+		margin-top: 3vh;
+	}
+	#ffinter {
+		color: #5D5D5D;
+		font-size: 5vh;
+		text-align: center;
+		margin-top: 3vh;
+		display: inherit;
+		margin-left: 2vw;
+	}
+	#couple {
+		width: 95vw;
+		margin-top: 3vh;	
+	}
+	#own_time {
+		color: #5D5D5D;
+		font-size: 5vh;
+		text-align: center;
+		margin-top: 3vh;
+		display: inherit;
+		margin-left: 2vw;
+	}
+	#mobile {
+		width: 95vw;
+		margin-top: 3vh;
+	}
 	#tw-icon {
 		width: 10vh;
 	}
