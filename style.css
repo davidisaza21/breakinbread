@@ -168,6 +168,37 @@ body {
 	padding-top: 5vh;
 	margin-bottom: 3vh;
 }
+@media only screen and (max-width: 640px) {
+	#logo {
+		margin-left: 44vw;
+	}
+	#su-button {
+		margin-left: 38vw;
+	}
+	#su-copy {
+		margin-left: 38vw;
+	}
+	#follow-copy {
+		font-size: 3vh;
+	}
+	#tw-icon {
+		width: 10vh;
+	}
+	#fb-icon {
+		width: 10vh;
+	}
+	#m-icon {
+		width: 10vh;
+	}
+	#ig-icon {
+		width: 10vh;
+	}
+	.social {
+		margin-left: 30vw;
+		display: inline-block;
+		margin-top: 3vh;
+	}
+}
 @media only screen and (max-width: 420px) {
 	#logo {
 		height: 15vh;
