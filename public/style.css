@@ -168,22 +168,26 @@ body {
 	padding-top: 5vh;
 	margin-bottom: 3vh;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 420px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
 	#logo {
 		height: 15vh;
 		margin-left: 38vw;
 		margin-bottom: 2vh;
 	}
 	#bb-image {
-		width: 175vw;
-		margin-left: -38vw;
+		width: 200vw;
+		margin-left: -50vw;
 	}
 	#su-button {
-		width: 45vw;
-		margin-left: 28vw;
+		width: 65vw;
+		margin-left: 18vw;
 	}
 	#su-copy {
-		margin-left: 28vw;
+		margin-left: 30vw;
 		color: #5D5D5D;
 		font-weight: bolder;
 	}
@@ -229,5 +233,32 @@ body {
 		width: 95vw;
 		margin-top: 3vh;
 	}
-
+	#f_heading {
+		font-size: 8vh;
+		font-weight: lighter;
+	}
+	#geo-copy {
+		font-size: 2vh;
+		font-weight: bold;
+	}
+	#follow-copy {
+		font-size: 5vh;
+	}
+	#tw-icon {
+		width: 10vh;
+	}
+	#fb-icon {
+		width: 10vh;
+	}
+	#m-icon {
+		width: 10vh;
+	}
+	#ig-icon {
+		width: 10vh;
+	}
+	.social {
+		margin-left: 13vw;
+		display: inline-block;
+		margin-top: 3vh;
+	}
 }
